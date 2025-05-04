@@ -4,7 +4,7 @@ const products = [
     { 
         id: 'product1',
         url: "https://tob-pl9c.onrender.com/images/ProductImg1.png", 
-        detailUrl: `${BASE_URL}/images/ProductImg1.png`,
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg1.png`,
         title: {
             shortTitle: `Premium Raw Tobacco for Authentic Experience\u2002(1 kg)`,
             longTitle: 'Premium Raw Tobacco - Handpicked, Natural, and unprocessed for the True Experience (1 kg)'
@@ -21,7 +21,7 @@ const products = [
     { 
         id: 'product2',
         url: "https://tob-pl9c.onrender.com/images/ProductImg2.png", 
-        detailUrl: `${BASE_URL}/images/ProductImg2.png`,
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg2.png`,
         title: {
             shortTitle: 'Premium Raw Tobacco for Authentic Experience\u2002(500 gm)',
             longTitle: 'Premium Raw Tobacco - Handpicked, Natural, and unprocessed for the True Experience (500 gm)'
@@ -38,7 +38,7 @@ const products = [
     { 
         id: 'product3',
         url: "https://tob-pl9c.onrender.com/images/ProductImg3.png", 
-        detailUrl: `${BASE_URL}/images/ProductImg3.png`, 
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg3.png`, 
         title: {
             shortTitle: 'Premium Raw Tobacco for Authentic Experience\u2002(250 gm)',
             longTitle: 'Premium Raw Tobacco - Handpicked, Natural, and unprocessed for the True Experience (250 gm)'
@@ -55,7 +55,7 @@ const products = [
     { 
         id: 'product4',
         url: "https://tob-pl9c.onrender.com/images/ProductImg4.png", 
-        detailUrl: `${BASE_URL}/images/ProductImg4.png`,
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg4.png`,
         title: {
             shortTitle: 'Premium Raw Tobacco for Authentic Experience\u2002(200 gm)',
             longTitle: 'Premium Raw Tobacco - Handpicked, Natural, and unprocessed for the True Experience (200 gm)'
@@ -72,7 +72,7 @@ const products = [
     { 
         id: 'product5',
         url: "https://tob-pl9c.onrender.com/images/ProductImg5.png", 
-        detailUrl: `${BASE_URL}/images/ProductImg5.png`,
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg5.png`,
         title: {
             shortTitle: 'Premium Raw Tobacco for Authentic Experience\u2002(100 gm)',
             longTitle: 'Premium Raw Tobacco - Handpicked, Natural, and unprocessed for the True Experience (100 gm)'
@@ -89,7 +89,7 @@ const products = [
     { 
         id: 'product6',
         url:"https://tob-pl9c.onrender.com/images/ProductImg6.jpg", 
-        detailUrl: `${BASE_URL}/images/ProductImg6.jpg`,
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg6.jpg`,
         title: {
             shortTitle: 'Durable Plastic Tobacco Box - Convenient \nand Secure Storage',
             longTitle: 'Durable Plastic Tobacco Box - Compact, Lightweight, and Perfect for Storing Your Raw Tobacco Securely | Ideal for On-the-Go Use'
@@ -106,7 +106,7 @@ const products = [
     { 
         id: 'product7',
         url: "https://tob-pl9c.onrender.com/images/ProductImg7.jpg", 
-        detailUrl: `${BASE_URL}/images/ProductImg7.jpg`,
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg7.jpg`,
         title: {
             shortTitle: 'Elegant Silver Tobacco Box - Stylish and Premium Storage Solution',
             longTitle: 'Elegant Silver Tobacco Box - Sleek, Durable, and Classy Storage for Your Raw Tobacco | A Premium Choice for Discerning Smokers',
@@ -123,7 +123,7 @@ const products = [
     { 
         id: 'product8',
         url: "https://tob-pl9c.onrender.com/images/ProductImg8.jpg",
-        detailUrl: `${BASE_URL}/images/ProductImg8.jpg`, 
+        detailUrl: `https://tob-pl9c.onrender.com/images/ProductImg8.jpg`, 
         title: {
             shortTitle: 'Vintage Brass Tobacco Box - Timeless, Strong, and Practical Storage',
             longTitle: 'Vintage Brass Tobacco Box - Durable, Classic, and Secure Storage for Raw Tobacco | A Premium, Timeless Choice for Smokers'
