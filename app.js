@@ -25,7 +25,9 @@ app.use(express.json());
 app.use(cookieParser(""));
 const allowedOrigins = [
   "https://backendtob-bllqp16d5-mavaayushs-projects.vercel.app",
-  "https://www.keshritobacco.com"
+  "https://www.keshritobacco.com",
+  "https://tob-pl9c.onrender.com",
+  "http://localhost:3000"
 ];
 
 app.use(cors({
@@ -48,26 +50,26 @@ app.use(orderRoutes);
 
 
 
-const razorpay = new Razorpay({
-    key_id: 'rzp_test_OS7Xto3ROL3qvy',
-    key_secret: 'oIhWW2FWBY2OR8f8wkPHLAeR',
-  });
+// const razorpay = new Razorpay({
+//     key_id: process.env.RAZORPAY_KEY_ID,
+//     key_secret: process.env.RAZORPAY_KEY_SECRET,
+// });
 
-app.post("/order", async (req, res) => {
-    const { amount, currency } = req.body;
-    try {
-      const order = await razorpay.orders.create({
-        amount,
-        currency,
-        receipt: "receipt#1",
-      });
-      console.log(order);
-      console.log(res.status)
-      res.json(order); // send full Razorpay order object
-    } catch (err) {
-      res.status(500).send("Error creating order");
-    }
-  });
+// app.post("/order", async (req, res) => {
+//     const { amount, currency } = req.body;
+//     try {
+//       const order = await razorpay.orders.create({
+//         amount,
+//         currency,
+//         receipt: "receipt#1",
+//       });
+//       console.log(order);
+//       console.log(res.status)
+//       res.json(order); // send full Razorpay order object
+//     } catch (err) {
+//       res.status(500).send("Error creating order");
+//     }
+//   });
   
 
 
